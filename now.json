@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "nextjs-static",
+  "name": "react-cluj-website",
   "builds": [{
     "src": "package.json",
     "use": "@now/static-build"

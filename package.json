@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "dev": "next -p 3003",
-    "build": "next build && next export -o dist",
+    "now-build": "next build && next export -o dist",
     "lint": "eslint ./src --fix"
   },
   "dependencies": {

@@ -24,6 +24,13 @@ const AppHeader = () => {
             <a style={linkStyle}>About</a>
           </Link>
         </Col>
+        <Col span={2}>
+          <Link href='https://github.com/react-cluj'>
+            <a target={'_blank'} style={linkStyle}>
+              Github
+            </a>
+          </Link>
+        </Col>
       </Row>
     </Header>
   )

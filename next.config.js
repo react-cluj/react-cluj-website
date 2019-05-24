@@ -1,2 +1,8 @@
 const withCSS = require('@zeit/next-css')
-module.exports = withCSS()
+
+const plugins = withCSS()
+
+module.exports = {
+  target: 'server',
+  ...plugins,
+}
