@@ -1,0 +1,30 @@
+{
+  "name": "react-cluj-website",
+  "version": "1.0.0",
+  "description": "React Cluj Website Source Code",
+  "main": "index.js",
+  "repository": "git@github.com:react-cluj/react-cluj-website.git",
+  "author": "robipop22 <poprobertdaniel22@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "next -p 3003",
+    "build": "next build && next export -o dist",
+    "lint": "eslint ./src --fix"
+  },
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^3.18.2",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "prettier": "^1.17.1"
+  }
+}

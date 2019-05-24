@@ -1,0 +1,22 @@
+@import url('../../node_modules/antd/dist/antd.css');
+
+
+body,
+html,
+p,
+input {
+  margin: 0;
+}
+
+body {
+  min-height: 100%;
+}
+
+.ant-layout {
+  background: #fff;
+}
+
+.react-logo {
+  width: 150px;
+  height: 150px;
+}
